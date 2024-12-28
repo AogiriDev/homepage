@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aogiri Izumi - Portfolio</title>
+    <!-- Link ke Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link ke Font Awesome untuk ikon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Link ke AOS untuk animasi -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Link ke custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Aogiri Izumi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Keahlian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="header-banner">
+        <div class="container text-center text-white">
+            <h1 class="display-4">Selamat Datang di Portfolio Saya</h1>
+            <p class="lead">Seorang pengembang dengan minat dalam teknologi web dan pengembangan perangkat lunak.</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="profile.jpg" alt="Aogiri Izumi" class="img-fluid rounded-circle profile-img" data-aos="fade-up">
+                </div>
+                <div class="col-md-6" data-aos="fade-up">
+                    <h2 class="display-4">Hai, Saya Aogiri Izumi</h2>
+                    <p class="lead">Saya seorang pengembang perangkat lunak yang berfokus pada pengembangan web dan aplikasi berbasis PHP, HTML, CSS, dan JavaScript.</p>
+                    <p>Saya memiliki pengalaman dalam membangun aplikasi dinamis dan interaktif serta mengembangkan sistem berbasis web untuk berbagai macam keperluan bisnis dan pribadi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Keahlian Saya</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML & CSS</h5>
+                            <p>Pengalaman dalam membuat halaman web responsif dan menarik dengan HTML5 dan CSS3. Menggunakan teknik desain modern seperti Flexbox dan Grid.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">PHP</h5>
+                            <p>Keahlian dalam pengembangan web dinamis menggunakan PHP untuk membuat sistem backend dan interaksi dengan database seperti MySQL.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p>Pengalaman dalam membuat aplikasi interaktif menggunakan JavaScript dan berbagai framework seperti React, Vue.js, serta penggunaan jQuery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Proyek Saya</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card shadow">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek Web Dinamis</h5>
+                            <p class="card-text">Membangun website interaktif yang memanfaatkan PHP dan MySQL untuk backend serta JavaScript untuk interaksi frontend.</p>
+                            <a href="#" class="btn btn-primary">Lihat Proyek</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Waifu Generator</h5>
+                            <p class="card-text">Aplikasi berbasis web menampilkan foto anime dan waifu secara acak berbasis Html,css,js.</p>
+                            <a href="https://github.com/AogiriDev/waifu-generator" class="btn btn-primary">Lihat Proyek</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card shadow">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vtuber Card Generator</h5>
+                            <p class="card-text">Aplikasi berbasis web membuatkan card/kartu pengenalan Vtuber berbasis Html,css,js.</p>
+                            <a href="https://github.com/AogiriDev/vtuber-card" class="btn btn-primary">Lihat Proyek</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Kontak Saya</h2>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="name" placeholder="Masukkan Nama Anda" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Aogiri Izumi. All rights reserved.</p>
+    </footer>
+
+    <!-- Script Bootstrap dan AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- Link ke AOS untuk animasi -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Inisialisasi AOS -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
